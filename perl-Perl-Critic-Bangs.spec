@@ -12,8 +12,10 @@ Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Perl/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires: perl(Perl::Critic)
+BuildRequires: perl(Perl::Critic::Utils::PPIRegexp)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Test::Perl::Critic)
+
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
