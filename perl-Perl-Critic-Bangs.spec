@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    Adding modifiers to a regular expression made up entirely of a variable created with qr() is usually not doing what you expect
 License:    GPL+ or Artistic
