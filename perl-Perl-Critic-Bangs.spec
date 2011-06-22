@@ -1,9 +1,9 @@
 %define upstream_name    Perl-Critic-Bangs
-%define upstream_version 1.06
+%define upstream_version 1.08
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Adding modifiers to a regular expression made up entirely of a variable created with qr() is usually not doing what you expect
 License:    GPL+ or Artistic
