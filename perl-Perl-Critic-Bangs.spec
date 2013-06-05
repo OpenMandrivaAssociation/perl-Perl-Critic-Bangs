@@ -2,14 +2,14 @@
 %define upstream_version 1.08
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 1.10
+Release:	1
 
 Summary:	Adding modifiers to a regular expression
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Perl/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Perl/Perl-Critic-Bangs-1.10.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Perl::Critic)
@@ -56,4 +56,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 + Revision: 573436
 - adding missing buildrequires:
 - import perl-Perl-Critic-Bangs
+
 
