@@ -7,7 +7,7 @@ Release:	3
 Summary:	Adding modifiers to a regular expression
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Perl/Perl-Critic-Bangs-1.10.tar.gz
 
 BuildRequires:	perl-devel
